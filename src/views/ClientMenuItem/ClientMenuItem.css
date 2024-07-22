@@ -1,0 +1,66 @@
+.MenuItemContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.menu-wrapper {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%; 
+}
+
+
+.MenuList-Container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 10px;
+    width: 20%;
+    min-width: 250px; 
+    min-height: 550px;
+    text-align: center;
+    position: relative;
+}
+
+
+.MenuList-Image {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MenuList-Header {
+    font-size: 100%;
+}
+
+.MenuList-Btn {
+    width: 100px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.MenuList-Delete-Btn{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.MenuList-Description {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    font-size: 12px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

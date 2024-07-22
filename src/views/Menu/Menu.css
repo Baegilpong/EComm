@@ -1,0 +1,62 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center; /* This centers the .menu-grid within the .menu-container */
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Cards spawn from the left */
+    width: 100%; /* Adjust this if needed to match your design */
+    max-width: 2000px; /* Or whatever max width you prefer */
+    margin-bottom: 30px;
+}
+
+.menu-item-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    width: 400px;
+    min-height: 550px;
+    text-align: center;
+    position: relative;
+}
+
+.menu-item-image {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-item-title {
+    font-size: 100%;
+}
+
+.menu-item-button {
+    width: 100px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.menu-item-description {
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: normal; 
+    word-wrap: break-word; 
+    font-size: 12px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
